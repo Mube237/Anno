@@ -10,9 +10,14 @@
 //Version 2
 
 var answer = prompt("are we there yet?");
+    var answer = prompt("are we yet?");
+    var answer = prompt("are" );
+
 
 while(answer.indexOf("yes") === -1) {
     var answer = prompt("are we there yet?");
+    var answer = prompt("are we yet?");
+    var answer = prompt("are" );
 }
 
 alert("YAY, WE MADE IT!!!");
